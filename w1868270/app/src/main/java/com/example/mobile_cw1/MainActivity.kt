@@ -21,3 +21,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+/**
+ * Reference,
+ * https://developer.android.com/codelabs/basic-android-kotlin-training-create-dice-roller-app-with-button#7
+ * https://stackoverflow.com/
+ * https://medium.com/@kuopingl/journey-with-kotlin-002-dice-roller-9e7299bfeda0
+ **/
