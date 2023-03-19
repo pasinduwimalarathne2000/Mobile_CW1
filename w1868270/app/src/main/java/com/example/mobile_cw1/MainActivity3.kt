@@ -83,6 +83,28 @@ class MainActivity3 : AppCompatActivity() {
 
         }
     }
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putInt("userScore",userScore)
+        outState.putInt("computerScore",computerScore)
+
+        //outState.putIntegerArrayList("diceMAArray",diceMAArray)
+//        outState.putIntArray("DICE_IMAGES", diceImages.toIntArray())
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        userScore=savedInstanceState.getInt("userScore")
+        computerScore=savedInstanceState.getInt("computerScore")
+
+        val textscore1: TextView = findViewById(R.id.SumusSc)
+        textscore1.text = userScore.toString()
+
+        val textscore2: TextView = findViewById(R.id.SumcompSc)
+        textscore2.text = computerScore.toString()
+
+    }
+
     // This function updates the scores of the user and computer after each turn and resets the roll sums and number of rolls left.
     private fun updateScore() {
         userScore += userRollSum
