@@ -28,3 +28,8 @@ class MainActivity : AppCompatActivity() {
  * https://stackoverflow.com/
  * https://medium.com/@kuopingl/journey-with-kotlin-002-dice-roller-9e7299bfeda0
  **/
+
+/**
+ * Video Link,
+ * https://drive.google.com/drive/folders/1A0N0AolNMlRqdiTeShqvS-LzCSUKLiKO?usp=share_link
+ **/
