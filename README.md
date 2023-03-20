@@ -8,7 +8,7 @@
 
 <img src="https://github.com/pasinduwimalarathne2000/Mobile_CW1/blob/main/SS/Screenshot%202023-03-19%20223754.png" height="600" width="300" hspace="40"><img src="https://github.com/pasinduwimalarathne2000/Mobile_CW1/blob/main/SS/Screenshot%202023-03-19%20223827.png" height="600" width="300" hspace="40">
 
-## Demo
+## 👨‍💻 Demo
 #### The code is an implementation of a dice game, where the player rolls five dice and tries to score points. The user can choose to keep some of the dice after the first roll and roll the remaining ones again, up to three times. After three rolls, the scores are updated, and the winner is announced. The code also includes an option for the user to set the target score to win.
 
 #### The game consists of a single activity named MainActivity3 that extends the AppCompatActivity class. The class contains several private variables to store the dice images, dice arrays, image views, scores, rolls, and target score. The activity has a layout file named activity_main3.xml that defines the UI of the game.
